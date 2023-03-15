@@ -1,1 +1,3 @@
 This directory contains a fundamental implementation of a Python program, which involves using Flask, REST API, and Tkinter GUI.
+
+The "main" file serves as the main entry point for the entire application, while the "settings" file is responsible for importing the necessary packages. The "patient" file creates a database for the application, the "api" file creates a REST API, and the "GUI" file creates a single Tkinter interface.
