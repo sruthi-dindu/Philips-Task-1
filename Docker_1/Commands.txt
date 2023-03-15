@@ -1,0 +1,36 @@
+login to docker
+	docker login -u <username>
+
+to create s Docker file
+	touch Dockerfile
+	
+to write a Dockerfile
+
+FROM python:3.6
+
+WORKDIR /home/abc/Docker_hands-on/Docker
+COPY requirements.txt .
+RUN pip install -r requirements.txt
+COPY settings.py .
+COPY main.py .
+COPY patient.py .
+COPY api.py .
+COPY testing.py .
+COPY GUI.py .
+
+CMD ["python", "./main.py"]
+CMD ["python", "./settings.py"]
+CMD ["python", "./patient.py"]
+CMD ["python", "./api.py"]
+CMD ["python", "./testing.py"]
+CMD ["python", "./GUI.py"]
+
+Build a docker image
+	docker build Docker_1
+
+Connecting Docker with ECS
+	$(aws ecr get-login --no-include-email  --region us-east-1)
+	<aws id>.dkr.ecr.us-east-1.amazonaws.com
+
+to start docker file in EC2 instance 
+	systemctl start docker
