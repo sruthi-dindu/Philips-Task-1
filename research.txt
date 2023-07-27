@@ -1,0 +1,9 @@
+https://arxiv.org/ftp/arxiv/papers/0704/0704.1267.pdf
+https://www.jstor.org/stable/43490366?searchText=Digitalizing%20paper%20document&searchUri=%2Faction%2FdoBasicSearch%3FQuery%3DDigitalizing%2Bpaper%2Bdocument&ab_segments=0%2Fbasic_search_gsv2%2Fcontrol&refreqid=fastly-default%3A2fb0eddc8e31396ffdf6b5e4f9548e91
+https://cyberleninka.ru/article/n/automated-digitization-of-radial-charts
+https://arxiv.org/ftp/arxiv/papers/2203/2203.00815.pdf
+https://pubs.rsna.org/doi/full/10.1148/radiol.2020192224
+
+Page segmentation (57, 38, 14, 39, 2)
+word spotting (22, 55, 46)
+document indexing (55)
